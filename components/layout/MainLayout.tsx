@@ -46,7 +46,7 @@ const MainLayout: React.FC<PropsWithChildren> = ({ children }) => {
           <LinkItem href="https://dsek.se">Om D-sektionen</LinkItem>
         </ul>
       </nav>
-      <main>{children}</main>
+      <main className="relative p-4 pt-8">{children}</main>
     </div>
   );
 };
